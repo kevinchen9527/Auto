@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>分析好友性别分布</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/westeros.js"></script>
+
+</head>
+<body>
+    <div id="021928b2c4304bd7943c860d524ecdc3" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_021928b2c4304bd7943c860d524ecdc3 = echarts.init(
+            document.getElementById('021928b2c4304bd7943c860d524ecdc3'), 'westeros', {renderer: 'canvas'});
+        var option_021928b2c4304bd7943c860d524ecdc3 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "pie",
+            "name": "\u5206\u6790\u597d\u53cb\u6027\u522b\u5206\u5e03",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "\u7537",
+                    "value": 0
+                },
+                {
+                    "name": "\u5973",
+                    "value": 0
+                },
+                {
+                    "name": "\u672a\u77e5",
+                    "value": 0
+                }
+            ],
+            "radius": [
+                "0%",
+                "75%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "roseType": "area",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u7537",
+                "\u5973",
+                "\u672a\u77e5"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u5206\u6790\u597d\u53cb\u6027\u522b\u5206\u5e03",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_021928b2c4304bd7943c860d524ecdc3.setOption(option_021928b2c4304bd7943c860d524ecdc3);
+    </script>
+</body>
+</html>
